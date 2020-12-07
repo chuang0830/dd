@@ -1,0 +1,401 @@
+
+
+
+
+.nav-box {
+    background-color: #fff;
+    height: 100px;
+    margin: 0px;
+    padding: 10px 80px;
+}
+
+.text-top a {
+    color: gray;
+    font-size: 13px;
+}
+.nav-top{
+    right:0px;
+    
+}
+
+
+.nav-right a {
+    color: #004505;
+}
+
+.ban-pic {
+    padding: 0px;
+}
+.ban-text {
+    top:40%;
+    left:15%;
+}
+.logo-pro {
+    background-color: rgb(213, 216, 176);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;  
+
+}
+
+.pro-title{
+    top: 15%;
+    left: 50%;
+transform: translateX(-50%);
+    text-align: center;
+}
+
+
+.logo-recipes {
+    background-color: rgb(154, 221, 165);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    left: 1px;
+    top: 400px;
+}
+.recipes-text {
+    left: 10px;
+    top: 450px;
+    
+}
+
+
+
+.re-text {
+    width: 70%;
+    height:70%;
+    background-color: white;
+    border: 10px solid  rgba(221, 213, 213, 0.418);
+   top: 300px;
+   right: 25px;
+    padding: 40px;
+   
+}
+.logo-quality {
+    background-color: rgb(213, 216, 176);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 50%;
+transform: translateX(-50%);
+}
+.quality-text {
+    top: 100px;
+    left: 50%;
+transform: translateX(-50%);
+text-align: center;
+
+}
+.quality-content {
+    left: 50%;
+transform: translateX(-50%);
+text-align: center;
+top: 45%;
+    
+}
+
+.q-item {
+    width: 180px;
+    height: 180px;
+}
+
+.q-bg {
+    width: 170px;
+    height: 170px;
+    background-color: rgb(26, 83, 83);
+    border-radius: 50%;
+}
+ .q-text {
+     top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  
+} 
+
+.quality-item {
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.news-bg {
+    background-color: rgb(154, 221, 165);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+
+}
+.logo-share {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(213, 216, 176);
+    border-radius: 0 0 200px 200px;
+}
+.update {
+    width:40%;
+    height:50%;
+    background-color: white;
+    border: 10px solid  rgba(38, 38, 38, 0.062);
+   top: 300px;
+   right: 25px;
+    padding: 40px;
+}
+.news-text {
+    top: 6%;
+    text-align: center;
+}
+
+.update {
+    bottom: 1px;
+}
+.heart {
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    border: 10px solid  rgba(38, 38, 38, 0.062);
+    padding: 40px;
+    margin-top: 8%;
+    margin-left: 3%;
+}
+    
+.fa-play-circle {
+    font-size: 200px;
+}
+.play-btn {
+margin-top: 20%;
+right: 20%;
+
+    
+}
+
+.email-box {
+    height: 100px;
+    width: 800px;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+
+
+
+}
+input{
+    text-align:center;
+ }
+
+.email-text {
+    width: 650px;
+    height: 40px;
+    border-bottom-style: 10px solid  green;
+    border-top-style: none;
+    border-left-style:none;
+    border-right-style:none;
+    border-radius: 10px;
+    
+}
+.email-btn {
+    margin-top: 50px;
+    
+}
+
+.email-btn input {
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border:none;
+    padding: 5px 25px;
+    font-weight: 500;
+
+}
+.logo-newss {
+background-color: rgb(213, 216, 176);
+border-radius: 50%;
+width: 200px;
+height: 200px;
+left: 50%;
+transform: translateX(-50%);
+top: 15%;
+}
+.news-letter {
+    left: 50%;
+transform: translateX(-50%);
+text-align: center;
+top: 20%;
+
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    color: goldenrod;
+    line-height: 40px;
+}
+ul a {
+    color: grey;
+}
+
+.messenger {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+.fa-facebook-messenger {
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+/* rwd */
+@media screen and (max-width:766px){
+
+
+.mo-right-icon {
+    font-size: 23px;
+  }
+  .mo-right-icon a{
+    color: gray;
+  }
+/* ----------------------- */
+  .quality-content {
+    left: 50%;
+transform: translateX(-50%);
+text-align: center;
+top: 20%;
+}
+
+.logo-quality {
+    top: 1%;
+    left: 50%;
+transform: translateX(-50%);
+text-align: center;
+width: 100px;
+height: 100px;
+}
+.quality-text {
+    top: 1%;
+    left: 50%;
+transform: translateX(-50%);
+}
+.logo-mb-q h2 {
+    font-size: 20px;
+
+}
+.quality-content-title h3 {
+    font-size: 18px;
+}
+.quality-content-title {
+    margin-top: 20px;
+}
+.quality-content-text  {
+    font-size: 12px;
+}
+.q-item {
+    width: 100px;
+    height: 100px;
+}
+.q-bg {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 83, 83);
+    border-radius: 50%;
+}
+
+.q-text img {
+    width: 30px;
+}
+
+.q-text p {
+    font-size: 12px;
+
+}
+
+/* ----------------------- */
+.news-bg {
+    margin: 0 auto;
+}
+.heart {
+    width: 80%;
+    height: 300px;
+}
+.heart h1 {
+    font-size: 25px;
+}
+
+.heart h2 {
+    font-size: 20px;
+}
+ 
+.newsletter-bg img{
+    height: 500px;
+    object-fit: cover;
+}
+.email-text {
+    width: 300px;
+
+}
+
+.logo-newss {
+    background-color: rgb(213, 216, 176);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    }
+    .news-letter {
+        left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 18%;
+    
+    }
+.news-letter h2 {
+    font-size: 20px;
+}
+
+.fa-facebook-messenger {
+    font-size: 60px;
+}
+
+}
+
+
+@media screen and (max-width:575px) {
+    .heart-bgc {
+        height: 400px;
+    }
+    .heart {
+    padding: 0;
+    left: 50%;
+transform: translateX(-50%);}
+.quality-pic img {
+    object-fit: cover;
+    height: 500px;
+    
+}
+
+.fa-facebook-messenger {
+    font-size: 50px;
+}
+
+    
+    }
+
+
+ /* TODO:
+1.logo手機頁面漢堡選單
+2.所有圓形底圖配字位置調整
+3.a的字顏色要變
+4.很多首的圖片要用cover
+5.fontawesome 右下messanger fixed
+可用div img（border-radius) 字 */
